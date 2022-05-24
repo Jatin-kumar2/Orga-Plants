@@ -59,7 +59,7 @@ html,body{
     height: 230px;
     
 }
-.example{
+.example {
     padding: 35px;
 
 }
@@ -74,7 +74,7 @@ html,body{
 form.example input[type=text] {
     padding: 10px;
     font-size: 17px;
-    border: 1px solid grey;
+    border: 1px solid transparent;
     float: left;
     width: 80%;
     background: #f1f1f1;
@@ -90,7 +90,7 @@ form.example input[type=text] {
     background: #f1f1f1;
     color: black;
     font-size: 17px;
-    border: 1px solid grey;
+    border: 1px solid transparent;
     border-left: none; /* Prevent double borders */
     cursor: pointer;
 
@@ -299,23 +299,79 @@ margin-bottom: 50px;
         display: block;
     }
 }
-@media only screen and (max-width:750px) {
-    .orgaform {
-        border-radius: 20px;
-        border: 2px solid black;
-        margin: auto;
-        max-width: 83%;
-        text-align: center;
+@media only screen and (max-width:360px) {
+    .searchorga {
+        max-width: 84%;
+     
+    }.example {
+        padding: 57px;
     }
-    .iconpart{
-        margin-left: 20px;
-        display: block;
+    
+}
+/* @media only screen and (max-width:750px) {
+    form.example input[type=text] {
+        margin: -40px;
+        padding: 5px;
+    
+      }
+} */
 
-
-    }
+@media only screen and (max-width: 500px){
+.searchorga {
+    max-width: 93%;
+    margin: auto;
+    height: 159px;
+}.example {
+    padding: 23px;
+}form.example input[type=text] {
+    padding: 6px;
+    font-size: 17px;
+    float: left;
+    width: 69%;
+   
+}form.example button {
+    float: left;
+    width: 10%;
+    padding: 6px;
+    
+}.example {
+    padding: 23px;
+    padding-top: 14%;
+}
+.orgaform {
+    border-radius: 20px;
+    margin: auto;
+    max-width: 72%;
+}
+.footersection .iconpart i{
+    font-size: 25px !important;
+}
+.iconpart {
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: inline-grid;
+}
+.iconpart div{
+    margin: 12px;
 }
 
-
+}
+@media only screen and (max-width: 340px){
+.example {
+    padding: 14px;
+    padding-top: 16%;
+}
+.orgaform {
+   
+    margin: auto;
+    max-width: 84%;
+}
+form.example button {
+    float: left;
+    width: 12%;
+    padding: 6px;
+}}
 
     /* form section start */
     
