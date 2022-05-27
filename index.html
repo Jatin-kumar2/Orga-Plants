@@ -36,7 +36,7 @@
   </head>
   <body>
     <div class="logo">
-        <img src="static/images/logo.png" alt="">
+        <img src="static/images/logo_bg.png" alt="">
     </div>
 
 
@@ -65,15 +65,15 @@
         <p>Ensuring value throughout supply chain.</p>
     </div>
     <div class="searchorga" style="background-image: url('static/images/background/background.png');" >
-        <form class=" example" action="action_page.php">
+        <form class=" example " action="action_page.php">
             <input type="text" placeholder="Search Orga Plants.." name="search">
-            <button type="submit"><i class="searchbtn fa fa-search"></i></button>
+            <button type="submit" ><i class="searchbtn fa fa-search"></i></button>
             <button type="submit" style="border-radius:0px 15px 15px 0px ;" ><i class="fa fa-microphone"></i></button>
           </form>
     </div>
 
     <div class="sectiontext">
-        <h2>Vegetable</h2>
+        <h2 class="sectiontext_big">Vegetables</h2>
     </div>
 
 <div class="owlcrousalworking" style="display: flex;display: flex;
@@ -127,7 +127,7 @@ margin: auto;
 
     <!-- fruits section start -->
     <div class="sectiontext ">
-        <h2>Fruits</h2>
+        <h2 class="sectiontext_big">Fruits</h2>
     </div>
 
     <div class="owlcrousalworking" style="display: flex;display: flex;
@@ -184,7 +184,7 @@ margin: auto;
 
     <!-- Exotic section start  -->
     <div class="sectiontext">
-        <h2>Exotic</h2>
+        <h2 class="sectiontext_big">Exotic</h2>
     </div>
 
     <div class="owlcrousalworking" style="display: flex;display: flex;
@@ -250,11 +250,11 @@ margin: auto;
 
         <form class="orgaform">
             <div class="form-group">
-              <input type="text" class="form-control" id="Yourname" placeholder="Your name">
+              <input type="text" class="form-control" id="Yourname" placeholder="Name">
             </div>
 
             <div class="form-group">
-                <input type="email" class="form-control" id="email" placeholder="E-email ID"> 
+                <input type="email" class="form-control" id="email" placeholder="Mail ID"> 
             </div>
             
             <div class="form-group">
@@ -276,29 +276,30 @@ margin: auto;
 
     <!-- footer section start -->
     <div class="sectiontext">
-        <h2>Contact us</h2>
+        <h2>Reach Us </h2>
     </div>
 
     <div class="container footersection">
 
          <div class="addresspart">
             <div>
-              <h4>Address</h4>
+                <i class=" fa fa-address-card" style="font-size: x-large;" ></i>
+                <p class="footer_class address_icon">
+                    #392,2nd main,3rd cross,Belathur <br>
+                    Colony,Kadugodi,560067
+                    </p>
             </div>
             <div>
-                <p>
-                #392,2nd main,3rd cross,Belathur
-                Colony,Kadugodi,560067
-                </p>
+                
             </div>
             <div>
-                <span>
-                    <i class="fa fa-phone"></i>    +91 99007 55502
+                <!-- <span> -->
+                    <i class=" fa fa-phone" style="font-size: large;"></i><span class=" address_icon">91 99007 55502</span>
                   </span>
                   <br>
                   <span>
-                    <i class="fa fa-envelope"></i>  +91 99007 55502
-                  </span>
+                    <i class="fa fa-envelope" style="font-size: large;"></i><span class=" address_icon">support@orgaplants.com</span>
+                  <!-- </span> -->
             </div>
          </div>
 
@@ -381,7 +382,7 @@ margin: auto;
         margin:10,
         nav:false,
         autoplay:true,
-        autoplayTimeout:1000,
+        autoplayTimeout:2000,
         
     
         responsive:{
