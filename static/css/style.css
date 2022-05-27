@@ -2,7 +2,13 @@
 padding: 0;}
 html,body{
     overflow-x: hidden ;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+
+
 }
+/* header section start  */
 .logo{
     text-align: center;
     
@@ -50,6 +56,17 @@ html,body{
 .logotext{
     text-align: center;
 }
+.logotext p{
+    font-size: 130%;
+    font-family: 'Poppins';
+    font-style: normal;
+
+
+}
+.address_icon{
+    margin-left: 5%;
+
+}
 .plants{
     color: rgb(67, 219, 67);
 }
@@ -57,7 +74,7 @@ html,body{
     max-width: 60%;
     margin: auto;
     height: 230px;
-    
+    border-radius: 20px;
 }
 .example {
     padding: 35px;
@@ -106,9 +123,18 @@ form.example input[type=text] {
     clear: both;
     display: table;
   }
+
+/* header section end  */
+
+
+/* vegetable section start  */
   .sectiontext{
       margin-top: 50px;
-    text-align: center;  
+    text-align: center; 
+}
+.sectiontext_big{
+    font-size: 3rem;
+
 }
 .sectionphoto {
     display: flex;
@@ -130,8 +156,10 @@ form.example input[type=text] {
         height: 60px;
     }
 
+/* vegetable section end  */
 
-    /* next page vegetable button start*/
+
+/* next page vegetable button start*/
     /* From uiverse.io by @alexmaracinaru */
 .cta {
     border: none;
@@ -185,8 +213,9 @@ form.example input[type=text] {
     transform: scaleX(1);
     transform-origin: bottom left;
    }
-    /* next page vegetable button end*/
+/* next page vegetable button end*/
 
+/* form section start */
 .formstart{
     width: 100%;
     /* margin: auto; */
@@ -247,6 +276,8 @@ form.example input[type=text] {
 }
 
 /* button end */
+/* form section end */
+
 
 /* footer section start */
 .footersection{
@@ -265,7 +296,9 @@ margin-bottom: 50px;
     width: 30%;
     display: flex;
     flex-direction: row;
-    justify-content:space-around;
+     justify-content: space-between;
+     font-family: 'Poppins';
+
     align-items: center;
 }
 /* footer section end */
@@ -277,12 +310,16 @@ margin-bottom: 50px;
     }
 }
 
-@media only screen and (max-width:780px) {
+@media only screen and (max-width:800px) {
     .searchorga {
         max-width: 84%;
      
     }.example {
         padding: 57px;
+    }
+    .iconpart{
+        margin-left: 20%;
+        width: 70%;
     }
     
 }
@@ -298,6 +335,7 @@ margin-bottom: 50px;
         
         display: block;
     }
+    
 }
 @media only screen and (max-width:360px) {
     .searchorga {
